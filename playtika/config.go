@@ -10,7 +10,6 @@ type Config struct {
 	password string
 	endpoint string
 
-	session *api.Client
 }
 
 /*
