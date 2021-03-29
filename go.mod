@@ -1,4 +1,4 @@
-module github.com/kerenbenzion/playtika_terraform_provider
+module github.com/kerenbenzion/playtika
 
 go 1.13
 
