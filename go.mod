@@ -4,9 +4,15 @@ go 1.13
 
 replace github.com/digitalrebar/provision => /root/go/src/github.com/digitalrebar/provision
 
+replace github.com/kerenbenzion/playtika => /root/provider_playtika/playtika
+
 require (
+	github.com/hashicorp/go-hclog v0.11.0 // indirect
+	github.com/hashicorp/hcl/v2 v2.6.0 // indirect
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.0.1
-	github.com/kerenbenzion/playtika v0.0.0-20210329071016-9d68d587d67b
-	github.com/kerenbenzion/provision v3.8.5+incompatible
-	github.com/savaki/jq v0.0.0-20161209013833-0e6baecebbf8
+	github.com/mattn/go-isatty v0.0.12 // indirect
+	github.com/stretchr/testify v1.5.1 // indirect
+	github.com/zclconf/go-cty v1.5.1 // indirect
+	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
+	gopkg.in/yaml.v2 v2.2.8 // indirect
 )

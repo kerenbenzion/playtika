@@ -31,7 +31,7 @@ func Provider() *schema.Provider {
                                 Description:   "The phpipam user"
                         },
                         "password": {
-                                                                Type:          schema.TypeString,
+                                Type:          schema.TypeString,
                                 Optional:      true,
                                 Description:   "The phpipam password"
                         },
