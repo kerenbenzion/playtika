@@ -1,18 +1,3 @@
-module github.com/kerenbenzion/playtika
+module playtika
 
 go 1.13
-
-replace github.com/digitalrebar/provision => /root/go/src/github.com/digitalrebar/provision
-
-replace github.com/kerenbenzion/playtika => /root/provider_playtika/playtika
-
-require (
-	github.com/hashicorp/go-hclog v0.11.0 // indirect
-	github.com/hashicorp/hcl/v2 v2.6.0 // indirect
-	github.com/hashicorp/terraform-plugin-sdk/v2 v2.0.1
-	github.com/mattn/go-isatty v0.0.12 // indirect
-	github.com/stretchr/testify v1.5.1 // indirect
-	github.com/zclconf/go-cty v1.5.1 // indirect
-	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
-	gopkg.in/yaml.v2 v2.2.8 // indirect
-)
